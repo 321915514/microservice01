@@ -2,20 +2,29 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="consumer" />
+        <module name="consumer-feign-80" />
+        <module name="consumer-hystrix-dashboard" />
         <module name="microservice01" />
         <module name="microservicecloud" />
         <module name="microservicecloud-api" />
+        <module name="microservicecloud-config-3344" />
+        <module name="microservicecloud-config-client-3355" />
+        <module name="microservicecloud-config-dept-client-8001" />
+        <module name="microservicecloud-config-eureka-client-7001" />
+        <module name="microservicecloud-zuul-gateway-9527" />
         <module name="microservicecloudeuraka7002" />
         <module name="microservicecloudeureka7001" />
         <module name="microservicecloudeureka7003" />
         <module name="provide-dept-8001" />
         <module name="provider-dept-8002" />
         <module name="provider-dept-8003" />
+        <module name="provider-dept-hystrix-8001" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -30,9 +39,16 @@
       <module name="comsumer-dept-80" options="" />
       <module name="consumer" options="" />
       <module name="consumer-dept" options="" />
+      <module name="consumer-feign-80" options="" />
+      <module name="consumer-hystrix-dashboard" options="" />
       <module name="microservice01" options="" />
       <module name="microservicecloud" options="" />
       <module name="microservicecloud-api" options="" />
+      <module name="microservicecloud-config-3344" options="" />
+      <module name="microservicecloud-config-client-3355" options="" />
+      <module name="microservicecloud-config-dept-client-8001" options="" />
+      <module name="microservicecloud-config-eureka-client-7001" options="" />
+      <module name="microservicecloud-zuul-gateway-9527" options="" />
       <module name="microservicecloudeuraka7002" options="" />
       <module name="microservicecloudeureka7001" options="" />
       <module name="microservicecloudeureka7003" options="" />
@@ -40,6 +56,7 @@
       <module name="provider-dept-8001" options="" />
       <module name="provider-dept-8002" options="" />
       <module name="provider-dept-8003" options="" />
+      <module name="provider-dept-hystrix-8001" options="" />
     </option>
   </component>
 </project>
